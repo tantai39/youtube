@@ -1,0 +1,138 @@
+body {
+  font-size: 10px;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+header {
+  height: 56px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+}
+
+header .btn-menu {
+  width: 40px;
+  height: 40px;
+}
+
+.btn-menu .icon-bar {
+  background-image: url(../images/icon-bar.svg);
+  background-repeat: no-repeat;
+  display: block;
+  width: 24px;
+  height: 24px;
+  opacity: .6;
+}
+
+header .link-logo {
+  display: flex;
+}
+
+.link-logo .logo {
+  width: 80px;
+  height: 24px;
+}
+
+.link-logo .text-country {
+  margin-left: 2px;
+  color: #606060;
+}
+
+header .form-search {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.form-search .input-search {
+  width: 575px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 2px 0 0 2px;
+  box-shadow: inset 0 1px 2px #eee;
+  color: #111;
+  padding: 2px 6px;
+}
+
+.group-control {
+  position: relative;
+}
+
+.group-control .icon-keyboard {
+  background: url(data:image/gif;base64,R0lGODlhEwALAKECAAAAABISEv///////yH5BAEKAAIALAAAAAATAAsAAAIdDI6pZ+suQJyy0ocV3bbm33EcCArmiUYk1qxAUAAAOw==) no-repeat center;
+  display: block;
+  width: 19px;
+  height: 11px;
+  opacity: .6;
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+}
+
+.form-search .btn-search {
+  cursor: pointer;
+  width: 65px;
+  border: 1px solid #d3d3d3;
+  background-color: #f8f8f8;
+  border-radius: 0 2px 2px 0;
+}
+
+.btn-search .icon-search {
+  background-image: url(../images/icon-search.svg);
+  background-repeat: no-repeat;
+  display: block;
+  width: 20px;
+  height: 20px;
+  opacity: .6;
+}
+
+header .group-header-right {
+  position: absolute;
+  right: 0;
+  display: flex;
+}
+
+header .group-extensions {
+  display: flex;
+}
+
+.group-extensions .btn-header {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+.btn-create-video .icon-create-video {
+  background-image: url(../images/icon-create-video.svg);
+}
+
+.btn-apps .icon-apps {
+  background-image: url(../images/icon-apps.svg);
+}
+
+.btn-messages .icon-messages {
+  background-image: url(../images/icon-messages.svg);
+}
+
+.btn-notifications .icon-notifications {
+  background-image: url(../images/icon-notifications.svg);
+}
+
+.group-header-right .btn-profile {
+  width: 60px;
+  height: 40px;
+}
+
+.btn-profile .text-first-letter {
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  background-color: #00579c;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 50%;
+}

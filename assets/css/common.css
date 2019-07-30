@@ -1,0 +1,13 @@
+.perfect-center {
+  /* Perfect center: x and y */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+}
+
+.icon-header {
+  width: 24px;
+  height: 24px;
+  opacity: .6;
+}
